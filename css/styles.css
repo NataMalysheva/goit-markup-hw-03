@@ -102,11 +102,11 @@ button {
 .hero {
     align-items: center;
     align-content: center;
+    padding: 188px 0;
 }
 .hero-div {
     align-items: center;
     align-content: center;
-    padding: 188px 0;
 }
 .hero-title {
     font-weight: 700;
@@ -217,6 +217,7 @@ color: #2e2f42;
 }
 .benefits-list {
     display: flex;
+    gap: 24px;
     margin-right: 24px;
 }
 .benefits-list:last-child {
