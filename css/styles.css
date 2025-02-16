@@ -76,6 +76,8 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -100,11 +102,11 @@ button {
 .hero {
     align-items: center;
     align-content: center;
-    height: 600px;
 }
 .hero-div {
     align-items: center;
     align-content: center;
+    padding: 188px 0;
 }
 .hero-title {
     font-weight: 700;
@@ -186,6 +188,10 @@ color: #2e2f42;
     padding: 100px 0;
     background-color: #2e2f42;
 }
+.logo-footer {
+     margin-bottom: 16px;
+     display: inline-block;
+ }
 .page-footer-text {
     max-width: 264px;
     font-size: 16px;
@@ -211,7 +217,12 @@ color: #2e2f42;
 }
 .benefits-list {
     display: flex;
-    gap: 24 px;
+    margin-right: 24px;
+}
+.benefits-list:last-child {
+    margin-right: 0
+}
+.benefits-list-item{
     flex-basis: calc((100% - 72px) / 4);
 }
 img {
